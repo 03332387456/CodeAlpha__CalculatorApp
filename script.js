@@ -39,4 +39,7 @@ clearAll.addEventListener("click" , ()=>{
    input.value = ""
 })
 
-
+// remove Elements form input
+input.addEventListener("click" , ()=>{
+  input.value = input.value.slice(0, -1);
+})
